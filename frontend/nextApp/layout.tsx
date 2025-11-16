@@ -8,14 +8,14 @@ description: 'A lightweight social feed',
 }
 
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
 return (
 <html lang="en">
-<body>
-<Providers>
-<main>{children}</main>
-</Providers>
-</body>
+    <body>
+        <Providers>
+            <main>{children}</main>
+        </Providers>
+    </body>
 </html>
 )
 }
