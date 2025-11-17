@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Upload from "../components/Upload";
-import API from "../../lib/api";
+import API from "../lib/api";
 
 export default function Feed({ user }: { user: any }) {
   const [posts, setPosts] = useState<any[]>([]);
