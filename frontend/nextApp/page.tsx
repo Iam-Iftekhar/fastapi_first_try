@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import LoginForm from "./components/LoginForm";
-import Feed from "./components/Feed";
+import LoginForm from "../components/LoginForm";
+import Feed from "../components/Feed";
 import API from "../lib/api";
 
 export default function Home() {
